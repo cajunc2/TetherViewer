@@ -1,0 +1,590 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		782AF32126013CDD001F66C1 /* TetherViewerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 782AF32026013CDD001F66C1 /* TetherViewerApp.swift */; };
+		782AF32326013CDD001F66C1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 782AF32226013CDD001F66C1 /* ContentView.swift */; };
+		782AF32526013CDE001F66C1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 782AF32426013CDE001F66C1 /* Assets.xcassets */; };
+		782AF32826013CDE001F66C1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 782AF32726013CDE001F66C1 /* Preview Assets.xcassets */; };
+		782AF33426013CDE001F66C1 /* TetherViewerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 782AF33326013CDE001F66C1 /* TetherViewerTests.swift */; };
+		782AF33F26013CDE001F66C1 /* TetherViewerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 782AF33E26013CDE001F66C1 /* TetherViewerUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		782AF33026013CDE001F66C1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 782AF31526013CDD001F66C1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 782AF31C26013CDD001F66C1;
+			remoteInfo = TetherViewer;
+		};
+		782AF33B26013CDE001F66C1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 782AF31526013CDD001F66C1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 782AF31C26013CDD001F66C1;
+			remoteInfo = TetherViewer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		782AF31D26013CDD001F66C1 /* TetherViewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TetherViewer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		782AF32026013CDD001F66C1 /* TetherViewerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TetherViewerApp.swift; sourceTree = "<group>"; };
+		782AF32226013CDD001F66C1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		782AF32426013CDE001F66C1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		782AF32726013CDE001F66C1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		782AF32926013CDE001F66C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		782AF32A26013CDE001F66C1 /* TetherViewer.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TetherViewer.entitlements; sourceTree = "<group>"; };
+		782AF32F26013CDE001F66C1 /* TetherViewerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TetherViewerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		782AF33326013CDE001F66C1 /* TetherViewerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TetherViewerTests.swift; sourceTree = "<group>"; };
+		782AF33526013CDE001F66C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		782AF33A26013CDE001F66C1 /* TetherViewerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TetherViewerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		782AF33E26013CDE001F66C1 /* TetherViewerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TetherViewerUITests.swift; sourceTree = "<group>"; };
+		782AF34026013CDE001F66C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		782AF31A26013CDD001F66C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		782AF32C26013CDE001F66C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		782AF33726013CDE001F66C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		782AF31426013CDD001F66C1 = {
+			isa = PBXGroup;
+			children = (
+				782AF31F26013CDD001F66C1 /* TetherViewer */,
+				782AF33226013CDE001F66C1 /* TetherViewerTests */,
+				782AF33D26013CDE001F66C1 /* TetherViewerUITests */,
+				782AF31E26013CDD001F66C1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		782AF31E26013CDD001F66C1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				782AF31D26013CDD001F66C1 /* TetherViewer.app */,
+				782AF32F26013CDE001F66C1 /* TetherViewerTests.xctest */,
+				782AF33A26013CDE001F66C1 /* TetherViewerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		782AF31F26013CDD001F66C1 /* TetherViewer */ = {
+			isa = PBXGroup;
+			children = (
+				782AF32026013CDD001F66C1 /* TetherViewerApp.swift */,
+				782AF32226013CDD001F66C1 /* ContentView.swift */,
+				782AF32426013CDE001F66C1 /* Assets.xcassets */,
+				782AF32926013CDE001F66C1 /* Info.plist */,
+				782AF32A26013CDE001F66C1 /* TetherViewer.entitlements */,
+				782AF32626013CDE001F66C1 /* Preview Content */,
+			);
+			path = TetherViewer;
+			sourceTree = "<group>";
+		};
+		782AF32626013CDE001F66C1 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				782AF32726013CDE001F66C1 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		782AF33226013CDE001F66C1 /* TetherViewerTests */ = {
+			isa = PBXGroup;
+			children = (
+				782AF33326013CDE001F66C1 /* TetherViewerTests.swift */,
+				782AF33526013CDE001F66C1 /* Info.plist */,
+			);
+			path = TetherViewerTests;
+			sourceTree = "<group>";
+		};
+		782AF33D26013CDE001F66C1 /* TetherViewerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				782AF33E26013CDE001F66C1 /* TetherViewerUITests.swift */,
+				782AF34026013CDE001F66C1 /* Info.plist */,
+			);
+			path = TetherViewerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		782AF31C26013CDD001F66C1 /* TetherViewer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 782AF34326013CDE001F66C1 /* Build configuration list for PBXNativeTarget "TetherViewer" */;
+			buildPhases = (
+				782AF31926013CDD001F66C1 /* Sources */,
+				782AF31A26013CDD001F66C1 /* Frameworks */,
+				782AF31B26013CDD001F66C1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TetherViewer;
+			productName = TetherViewer;
+			productReference = 782AF31D26013CDD001F66C1 /* TetherViewer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		782AF32E26013CDE001F66C1 /* TetherViewerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 782AF34626013CDE001F66C1 /* Build configuration list for PBXNativeTarget "TetherViewerTests" */;
+			buildPhases = (
+				782AF32B26013CDE001F66C1 /* Sources */,
+				782AF32C26013CDE001F66C1 /* Frameworks */,
+				782AF32D26013CDE001F66C1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				782AF33126013CDE001F66C1 /* PBXTargetDependency */,
+			);
+			name = TetherViewerTests;
+			productName = TetherViewerTests;
+			productReference = 782AF32F26013CDE001F66C1 /* TetherViewerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		782AF33926013CDE001F66C1 /* TetherViewerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 782AF34926013CDE001F66C1 /* Build configuration list for PBXNativeTarget "TetherViewerUITests" */;
+			buildPhases = (
+				782AF33626013CDE001F66C1 /* Sources */,
+				782AF33726013CDE001F66C1 /* Frameworks */,
+				782AF33826013CDE001F66C1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				782AF33C26013CDE001F66C1 /* PBXTargetDependency */,
+			);
+			name = TetherViewerUITests;
+			productName = TetherViewerUITests;
+			productReference = 782AF33A26013CDE001F66C1 /* TetherViewerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		782AF31526013CDD001F66C1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					782AF31C26013CDD001F66C1 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					782AF32E26013CDE001F66C1 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 782AF31C26013CDD001F66C1;
+					};
+					782AF33926013CDE001F66C1 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 782AF31C26013CDD001F66C1;
+					};
+				};
+			};
+			buildConfigurationList = 782AF31826013CDD001F66C1 /* Build configuration list for PBXProject "TetherViewer" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 782AF31426013CDD001F66C1;
+			productRefGroup = 782AF31E26013CDD001F66C1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				782AF31C26013CDD001F66C1 /* TetherViewer */,
+				782AF32E26013CDE001F66C1 /* TetherViewerTests */,
+				782AF33926013CDE001F66C1 /* TetherViewerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		782AF31B26013CDD001F66C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				782AF32826013CDE001F66C1 /* Preview Assets.xcassets in Resources */,
+				782AF32526013CDE001F66C1 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		782AF32D26013CDE001F66C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		782AF33826013CDE001F66C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		782AF31926013CDD001F66C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				782AF32326013CDD001F66C1 /* ContentView.swift in Sources */,
+				782AF32126013CDD001F66C1 /* TetherViewerApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		782AF32B26013CDE001F66C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				782AF33426013CDE001F66C1 /* TetherViewerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		782AF33626013CDE001F66C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				782AF33F26013CDE001F66C1 /* TetherViewerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		782AF33126013CDE001F66C1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 782AF31C26013CDD001F66C1 /* TetherViewer */;
+			targetProxy = 782AF33026013CDE001F66C1 /* PBXContainerItemProxy */;
+		};
+		782AF33C26013CDE001F66C1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 782AF31C26013CDD001F66C1 /* TetherViewer */;
+			targetProxy = 782AF33B26013CDE001F66C1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		782AF34126013CDE001F66C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		782AF34226013CDE001F66C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		782AF34426013CDE001F66C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = TetherViewer/TetherViewer.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"TetherViewer/Preview Content\"";
+				DEVELOPMENT_TEAM = 65BMBVJ3KJ;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = TetherViewer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = org.cajunc2.TetherViewer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		782AF34526013CDE001F66C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = TetherViewer/TetherViewer.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"TetherViewer/Preview Content\"";
+				DEVELOPMENT_TEAM = 65BMBVJ3KJ;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = TetherViewer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = org.cajunc2.TetherViewer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		782AF34726013CDE001F66C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 65BMBVJ3KJ;
+				INFOPLIST_FILE = TetherViewerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = org.cajunc2.TetherViewerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TetherViewer.app/Contents/MacOS/TetherViewer";
+			};
+			name = Debug;
+		};
+		782AF34826013CDE001F66C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 65BMBVJ3KJ;
+				INFOPLIST_FILE = TetherViewerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = org.cajunc2.TetherViewerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TetherViewer.app/Contents/MacOS/TetherViewer";
+			};
+			name = Release;
+		};
+		782AF34A26013CDE001F66C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 65BMBVJ3KJ;
+				INFOPLIST_FILE = TetherViewerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.cajunc2.TetherViewerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = TetherViewer;
+			};
+			name = Debug;
+		};
+		782AF34B26013CDE001F66C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 65BMBVJ3KJ;
+				INFOPLIST_FILE = TetherViewerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.cajunc2.TetherViewerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = TetherViewer;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		782AF31826013CDD001F66C1 /* Build configuration list for PBXProject "TetherViewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				782AF34126013CDE001F66C1 /* Debug */,
+				782AF34226013CDE001F66C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		782AF34326013CDE001F66C1 /* Build configuration list for PBXNativeTarget "TetherViewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				782AF34426013CDE001F66C1 /* Debug */,
+				782AF34526013CDE001F66C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		782AF34626013CDE001F66C1 /* Build configuration list for PBXNativeTarget "TetherViewerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				782AF34726013CDE001F66C1 /* Debug */,
+				782AF34826013CDE001F66C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		782AF34926013CDE001F66C1 /* Build configuration list for PBXNativeTarget "TetherViewerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				782AF34A26013CDE001F66C1 /* Debug */,
+				782AF34B26013CDE001F66C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 782AF31526013CDD001F66C1 /* Project object */;
+}
