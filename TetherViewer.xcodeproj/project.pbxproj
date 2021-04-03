@@ -13,6 +13,13 @@
 		782AF32826013CDE001F66C1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 782AF32726013CDE001F66C1 /* Preview Assets.xcassets */; };
 		782AF33426013CDE001F66C1 /* TetherViewerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 782AF33326013CDE001F66C1 /* TetherViewerTests.swift */; };
 		782AF33F26013CDE001F66C1 /* TetherViewerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 782AF33E26013CDE001F66C1 /* TetherViewerUITests.swift */; };
+		782AF35026014619001F66C1 /* DirectoryObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 782AF34F26014619001F66C1 /* DirectoryObserver.swift */; };
+		78C9F25F26026C9100437AE9 /* SidebarImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78C9F25E26026C9100437AE9 /* SidebarImageView.swift */; };
+		78C9F2692602703700437AE9 /* PhotoWatcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78C9F2682602703700437AE9 /* PhotoWatcher.swift */; };
+		78C9F26E2602717100437AE9 /* ImageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78C9F26D2602717100437AE9 /* ImageModel.swift */; };
+		78C9F2732602739900437AE9 /* ExifData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78C9F2722602739900437AE9 /* ExifData.swift */; };
+		78C9F2812602771E00437AE9 /* MainImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78C9F2802602771E00437AE9 /* MainImageView.swift */; };
+		78C9F2922602D71100437AE9 /* DevBrowserDelegateClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78C9F2912602D71100437AE9 /* DevBrowserDelegateClass.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +53,13 @@
 		782AF33A26013CDE001F66C1 /* TetherViewerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TetherViewerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		782AF33E26013CDE001F66C1 /* TetherViewerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TetherViewerUITests.swift; sourceTree = "<group>"; };
 		782AF34026013CDE001F66C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		782AF34F26014619001F66C1 /* DirectoryObserver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DirectoryObserver.swift; sourceTree = "<group>"; };
+		78C9F25E26026C9100437AE9 /* SidebarImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SidebarImageView.swift; sourceTree = "<group>"; };
+		78C9F2682602703700437AE9 /* PhotoWatcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoWatcher.swift; sourceTree = "<group>"; };
+		78C9F26D2602717100437AE9 /* ImageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageModel.swift; sourceTree = "<group>"; };
+		78C9F2722602739900437AE9 /* ExifData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExifData.swift; sourceTree = "<group>"; };
+		78C9F2802602771E00437AE9 /* MainImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainImageView.swift; sourceTree = "<group>"; };
+		78C9F2912602D71100437AE9 /* DevBrowserDelegateClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DevBrowserDelegateClass.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,10 +112,17 @@
 			children = (
 				782AF32026013CDD001F66C1 /* TetherViewerApp.swift */,
 				782AF32226013CDD001F66C1 /* ContentView.swift */,
+				78C9F2802602771E00437AE9 /* MainImageView.swift */,
+				78C9F2722602739900437AE9 /* ExifData.swift */,
+				78C9F26D2602717100437AE9 /* ImageModel.swift */,
 				782AF32426013CDE001F66C1 /* Assets.xcassets */,
 				782AF32926013CDE001F66C1 /* Info.plist */,
 				782AF32A26013CDE001F66C1 /* TetherViewer.entitlements */,
+				782AF34F26014619001F66C1 /* DirectoryObserver.swift */,
+				78C9F25E26026C9100437AE9 /* SidebarImageView.swift */,
+				78C9F2682602703700437AE9 /* PhotoWatcher.swift */,
 				782AF32626013CDE001F66C1 /* Preview Content */,
+				78C9F2912602D71100437AE9 /* DevBrowserDelegateClass.swift */,
 			);
 			path = TetherViewer;
 			sourceTree = "<group>";
@@ -148,6 +169,8 @@
 			dependencies = (
 			);
 			name = TetherViewer;
+			packageProductDependencies = (
+			);
 			productName = TetherViewer;
 			productReference = 782AF31D26013CDD001F66C1 /* TetherViewer.app */;
 			productType = "com.apple.product-type.application";
@@ -219,6 +242,8 @@
 				Base,
 			);
 			mainGroup = 782AF31426013CDD001F66C1;
+			packageReferences = (
+			);
 			productRefGroup = 782AF31E26013CDD001F66C1 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -262,7 +287,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				782AF32326013CDD001F66C1 /* ContentView.swift in Sources */,
+				78C9F2922602D71100437AE9 /* DevBrowserDelegateClass.swift in Sources */,
+				78C9F2812602771E00437AE9 /* MainImageView.swift in Sources */,
+				78C9F25F26026C9100437AE9 /* SidebarImageView.swift in Sources */,
 				782AF32126013CDD001F66C1 /* TetherViewerApp.swift in Sources */,
+				782AF35026014619001F66C1 /* DirectoryObserver.swift in Sources */,
+				78C9F2692602703700437AE9 /* PhotoWatcher.swift in Sources */,
+				78C9F26E2602717100437AE9 /* ImageModel.swift in Sources */,
+				78C9F2732602739900437AE9 /* ExifData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,7 +333,7 @@
 		782AF34126013CDE001F66C1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
+				ALWAYS_SEARCH_USER_PATHS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -349,20 +381,24 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = /usr/local/include;
+				LIBRARY_SEARCH_PATHS = "";
 				MACOSX_DEPLOYMENT_TARGET = 11.1;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				SCAN_ALL_SOURCE_FILES_FOR_INCLUDES = NO;
 				SDKROOT = macosx;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				USER_HEADER_SEARCH_PATHS = "";
 			};
 			name = Debug;
 		};
 		782AF34226013CDE001F66C1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
+				ALWAYS_SEARCH_USER_PATHS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -404,12 +440,16 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = /usr/local/include;
+				LIBRARY_SEARCH_PATHS = "";
 				MACOSX_DEPLOYMENT_TARGET = 11.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
+				SCAN_ALL_SOURCE_FILES_FOR_INCLUDES = NO;
 				SDKROOT = macosx;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				USER_HEADER_SEARCH_PATHS = "";
 			};
 			name = Release;
 		};
@@ -419,12 +459,14 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = TetherViewer/TetherViewer.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"TetherViewer/Preview Content\"";
 				DEVELOPMENT_TEAM = 65BMBVJ3KJ;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
+				HEADER_SEARCH_PATHS = "";
 				INFOPLIST_FILE = TetherViewer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -434,6 +476,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = org.cajunc2.TetherViewer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
+				USER_HEADER_SEARCH_PATHS = "";
 			};
 			name = Debug;
 		};
@@ -443,12 +486,14 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = TetherViewer/TetherViewer.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"TetherViewer/Preview Content\"";
 				DEVELOPMENT_TEAM = 65BMBVJ3KJ;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
+				HEADER_SEARCH_PATHS = "";
 				INFOPLIST_FILE = TetherViewer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -458,6 +503,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = org.cajunc2.TetherViewer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
+				USER_HEADER_SEARCH_PATHS = "";
 			};
 			name = Release;
 		};

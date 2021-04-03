@@ -9,9 +9,12 @@ import SwiftUI
 
 @main
 struct TetherViewerApp: App {
-    var body: some Scene {
-        WindowGroup {
-            ContentView()
-        }
-    }
+	let path = "/Users/cajuncc/Pictures/FUJIFILM/"
+	
+	var view: ContentView?
+	var body: some Scene {
+		WindowGroup {
+			ContentView(photoWatcher: PhotoWatcher(watchDir: URL(fileURLWithPath: path, isDirectory: true)))
+		}
+	}
 }
